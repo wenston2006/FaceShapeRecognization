@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LocalDebuggerCommand>E:\work_projs\faceshape\bin\debug\infilixfaceshape_win32_x86.exe</LocalDebuggerCommand>
+    <LocalDebuggerWorkingDirectory>E:\work_projs\faceshape\bin\debug</LocalDebuggerWorkingDirectory>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+    <LocalDebuggerCommandArguments>-p 3 -m E:/faceshape/recog_model/ -o E:/work_projs/faceshape/ E:/work_projs/faceshape/test_img/3.jpg</LocalDebuggerCommandArguments>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LocalDebuggerCommand>D:\PartnerX_work\work_projs\faceshape\bin\release\abilixfaceshape_win32_x86.exe</LocalDebuggerCommand>
+    <LocalDebuggerCommandArguments>-p 3 -o D:/PartnerX_work/work_projs/faceshape/AbilixFaceRecDataLib/ -m D:/PartnerX_work/work_projs/faceshape/recog_model/ E:/officer/zhaofuxi/zhaofuxi_2.jpg</LocalDebuggerCommandArguments>
+    <LocalDebuggerWorkingDirectory>D:\PartnerX_work\work_projs\faceshape\bin\debug</LocalDebuggerWorkingDirectory>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+  </PropertyGroup>
+</Project>
